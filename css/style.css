@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #aaa1a1;
+}
+
+nav.bg-blue {
+    background: #f3f8f7;
+    border-bottom: solid 1px #aaa1a1;
+}
+
+section {
+    background: #f3f8f7;
+}
+
+h1 {
+    color: #407BFF;
+}
