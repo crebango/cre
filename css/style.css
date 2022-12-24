@@ -15,8 +15,18 @@ nav.bg-blue {
 
 section {
     background: #f3f8f7;
+    margin-top: 10px;
+    padding: 30px 0px;
+    border-radius: 2px;
 }
 
-h1 {
+h2 {
     color: #407BFF;
+    font-weight: 600;
+}
+
+.card i {
+    font-size: 35px;
+    color: #407BFF;
+    margin-left: 15px;
 }
