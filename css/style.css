@@ -45,6 +45,15 @@ h2 {
     margin-left: 15px;
 }
 
+footer section {
+    background: #f3f8f7;
+    padding: 10px;
+}
+
+section .copyright {
+    color: #407BFF;
+}
+
 @media (max-width: 575px) {
     #last {
         order: 1;
