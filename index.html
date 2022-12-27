@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./image/picture.png" type="image/x-icon">
     <link rel="stylesheet" href="./bootstrap/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Cre BANGO</title>
+    <title>Centre de Recherche et d'Essais (CRE) de BANGO</title>
 </head>
 <body>
     <header class="container-fluid sticky-top">
@@ -15,7 +16,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="./image/logo.svg" alt="" height="20" width="100"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="bi bi-list"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -23,10 +24,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Formations</a>
+                            <a class="nav-link" href="#nosformations">Formations</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Témoignages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#apropos">À propos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
@@ -38,9 +42,80 @@
     </header>
     <main>
         <div class="container-fluid mt-2">
-            <section>
+            <section id="accueil">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 order-lg-first order-sm-last" id="first">
+                        <h2 class="mx-3">Bienvenue au Centre de Recherche et d'Essais (CRE) de BANGO</h2>
+                        <p class="mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde harum sequi perspiciatis numquam quae debitis, libero saepe exercitationem maxime</p>
+                    </div>
+                    <div class="col-lg-6 col-md-12" id="last">
+                        <img src="./image/Seminar-rafiki.svg" class="img-fluid w-75" alt="">
+                    </div>
+                </div>
+            </section>
+            <section id="nosformations">
+                <h2 class="text-center">Nos formations</h2>
+                <div class="row g-2 mx-3">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <i class="bi bi-microsoft"></i>
+                            <div class="card-body">
+                              <h5 class="card-title">Bureautique</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <i class="bi bi-vector-pen"></i>
+                            <div class="card-body">
+                              <h5 class="card-title">Infographie</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <i class="bi bi-palette"></i>
+                            <div class="card-body">
+                              <h5 class="card-title">Infographie</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <i class="bi bi-cpu"></i>
+                            <div class="card-body">
+                              <h5 class="card-title">Maintenance</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <i class="bi bi-server"></i>
+                            <div class="card-body">
+                              <h5 class="card-title">Réseau local</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card">
+                            <i class="bi bi-plugin"></i>
+                            <div class="card-body">
+                              <h5 class="card-title">Logiciels éducatifs</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="femmestrans">
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
+<<<<<<< HEAD
                         <h2 class="text-start mx-3">I.  PRESENTATION</h2>
                         <p class="text-justify mx-3"> 
                             Créé en 2014, le Centre de Recherche et d’Essais de Bango est localisé dans la commune de Saint-Louis et constitue l’un des trois (3) CRE érigés dans ladite commune. Le Centre est situé sur la route principale, en face du domicile du délégué de quartier de Bango Nord. Le centre possède au rez-de-chaussée deux (2) salles de cours, un (1) bureau pour le gestionnaire et du reste un étage et une cour réservés aux femmes transformatrices de céréales et de produits locaux. 
@@ -69,9 +144,51 @@
                            
                         </ul>
                          
+=======
+                        <h2 class="text-start mx-3">SECTION FEMMES TRANSFORMATRICES </h2>
+                         <p class="text-justify mx-3">
+                             Concernant les activités habituelles telles que la production de céréales locales, les femmes ont produits et vendu pour l’année 2020 une quantité de céréales locales équivalant à plus de Trente (30) tonnes et un lot consistant de jus de fruits. 
+                            Dans le contexte actuel de la crise sanitaire, le Ministère de l’Enseignement Supérieur, de la Recherche et de l’Innovation, par le biais des Centres de Recherche et d’Essais (CRE) avait mis en place un financement, pour l’appui à la production locale de savon et d’eau de javel dans le cadre de la riposte contre le Covid19.
+                            Ainsi, sous l’encadrement du Gestionnaire, les femmes transformatrices du centre ont produit Trois Cent Soixante (360) morceaux de savon de 120g et Trois Cents (300) litres d’eau de Javel.
+
+                         </p>
+>>>>>>> alpha
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <img src="./image/Seminar-rafiki.svg" class="img-fluid" alt="">
+                        <img src="./image/femme.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </section>
+            <section id="apropos">
+                <div class="row align-items-center">
+                    <div class="clearfix">
+                        <img src="./image/picture.png" class="img-fluid col-lg-5 col-md-4 col-sm-5 float-start m-2" alt="...">
+                        <h2 class="mx-3">Centre de Recherche et d'Essais (CRE) de BANGO</h2>
+                        <p class="text-justify mx-3"> 
+                            Créé en 2014, le Centre de Recherche et d’Essais de Bango est localisé dans la commune de Saint-Louis et constitue l’un des trois (3) CRE érigés dans ladite commune. Le Centre est situé sur la route principale, en face du domicile du délégué de quartier de Bango Nord. Le centre possède au rez-de-chaussée deux (2) salles de cours, un (1) bureau pour le gestionnaire et du reste un étage et une cour réservés aux femmes transformatrices de céréales et de produits locaux. 
+                            Aujourd’hui le CRE Bango compte trois (3) contractuels et deux (2) prestataires. Ce personnel est composé d’un gestionnaire, d’un formateur en maintenance et réseau, d’un formateur en infographie et sérigraphie, d’une technicienne de surface et d’un gardien.<br>
+                            À l’instar des autres CRE, celui de Bango a pour principale mission de diffuser et vulgariser du savoir et du savoir-faire, et de transférer des technologies, facilitant aux populations l’accès à des outils et techniques très efficaces et adaptés à leurs besoins. Ainsi, conformément aux missions des CRE, le Centre donne des formations dans le domaine du numérique et de l’informatique, particulièrement sur les modules métier du centre à savoir :<br>
+                            La bureautique (connaissances informatiques de base et les applications office)
+                        </p>
+                        <ul>
+                            <li><strong>La bureautique</strong> (connaissances informatiques de base et les applications office)</li>
+                            <li> <strong>l’infographie</strong> (Photoshop, Illustrator, Adope Premier Pro) </li>
+                            <li><strong>la sérigraphie</strong> (Insolation, transfert et sublimation)</li>
+                            <li><strong>la maintenance</strong> (Maitrise hardware & Software, Assemblage d’ordinateur,)</li>
+                            <li><strong>le réseau local</strong> (Maitrise des techniques d’interconnexion et de partages de fichiers)</li>
+                            <li> <strong>les logiciels éducatifs</strong> (Gcompris)</li>
+                        </ul>
+                        <p class="mx-3">
+                            Le CRE donne des cours du Lundi au Samedi, de 9H à 19H et durant toute l’année. 
+                            Le centre a aussi en son sein une fédération de femmes regroupant tous les groupements et GIE de Bango. Cette organisation leur permet non seulement de polariser des financements, des dons, de capter des formations, mais elle leur permet aussi de se constituer en groupes de productions selon les spécialités. Elles s’activent généralement dans :
+                        </p>
+                        <ul>
+                            <li><strong>la transformation de céréales et produits locaux</strong> (Thiakri, Couscous, jus de fruits.)</li>
+                            <li> <strong>la production de savon</strong></li>
+                            <li><strong>la production d’eau de javel</strong></li>
+                            <li><strong>le micro jardinage</strong></li>
+                           
+                        </ul>
                     </div>
                 </div>
             </section>

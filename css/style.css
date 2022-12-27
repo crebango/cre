@@ -13,6 +13,7 @@ nav.bg-blue {
     border-bottom: solid 1px #aaa1a1;
 }
 
+<<<<<<< HEAD
 section {
     background: #f3f8f7;
     margin-top: 10px;
@@ -22,6 +23,31 @@ section {
 
 h2 {
     color: #407BFF;
+=======
+.navbar-toggler {
+    border: 1px solid #407BFF;
+}
+
+.navbar-toggler:focus {
+    color: #407BFF;
+    box-shadow: 0 0 .1rem;
+}
+
+.bi-list {
+    color: #407BFF;
+    font-size: 20px;
+}
+
+section {
+    background: #f3f8f7;
+    margin-top: 5px;
+    padding: 30px 0px;
+    border-radius: 2px;
+}
+
+h2 {
+    color: #407BFF;
+>>>>>>> alpha
     font-weight: 600;
 }
 
@@ -29,4 +55,16 @@ h2 {
     font-size: 35px;
     color: #407BFF;
     margin-left: 15px;
+<<<<<<< HEAD
+=======
+}
+
+@media (max-width: 575px) {
+    #last {
+        order: 1;
+    }
+    #first {
+        order: 2;
+    }
+>>>>>>> alpha
 }
